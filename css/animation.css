@@ -1,0 +1,62 @@
+@keyframes fallDown {
+    from {
+        transform: translateY(-150px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes textFocusIn {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes rightIn {
+    from {
+        transform: translateX(300px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes leftIn {
+    from {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes width {
+    from{
+        width: 0;
+    } to {
+        width: 100%;
+    }
+}
+
+@keyframes toleft {
+    from{
+        left: 50%;
+    } to {
+        left: 1px;
+    }
+}
